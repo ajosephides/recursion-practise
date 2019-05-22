@@ -4,7 +4,6 @@
 
 # palendrome is something that is the same forward as backward
 # palendrom of a single character string is itself and therefore true (base case)
-# anna
 
 def palendrome(string)
   array = string.chars.to_a
