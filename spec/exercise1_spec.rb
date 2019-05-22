@@ -8,10 +8,10 @@ describe 'exercise 1' do
   end
 
   it 'gives and output of 3628800 for factorial of 10' do
-    expect(factorial(10)).to eq(3628800)
+    expect(factorial(10)).to eq(3_628_800)
   end
 
   it 'gives an output of 479001600 for factorial of 12' do
-    expect(factorial(12)).to eq(479001600)
+    expect(factorial(12)).to eq(479_001_600)
   end
 end

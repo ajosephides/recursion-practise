@@ -1,9 +1,10 @@
-#Define a recursive function that returns true if a string is a palindrome and false otherwise.
+# frozen_string_literal: true
+
+# Define a recursive function that returns true if a string is a palindrome and false otherwise.
 
 # palendrome is something that is the same forward as backward
 # palendrom of a single character string is itself and therefore true (base case)
-# anna 
-
+# anna
 
 def palendrome(string)
   array = string.chars.to_a
@@ -13,4 +14,4 @@ def palendrome(string)
   else
     return false
   end
-end 
+end
